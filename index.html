@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="Untitled-1MYLOGPO.png" alt="">
+                <h3>securenfts</h3>
+            </div>
+            <div class="a-tags">
+            <a href="">home</a>
+            <a href="">marketplace</a>
+            <a href="">nfts</a>
+            <a href="">exchange</a>
+            </div>
+            
+            <button>wallet connect</button>
+        </nav>
+        <div class="nav-2">
+            <div class="logo">
+                <img src="Untitled-1MYLOGPO.png" alt="">
+                <h3>securenfts</h3>
+            </div>
+            <img id="harmbuger" onclick="MenuOpen()" src="harmburger.png" alt="">
+        </div>
+        <section class="section-a">
+            <div class="polygon">
+                <img src="blue-cube.png" alt="image here">
+            </div>
+            <div class="text-area">
+                <h1>the best place to analyze,</h1>
+                <h1>track and discover</h1><h1>NFT's</h1>
+                <p>real time digital asset,time tracking to help you
+                    navigate nft market with<br> transparency and confidence
+                </p>
+                <button class="right">get started</button>
+                <button class="left">learn more</button>
+            </div>
+            
+         
+        </section>
+        <div id="a-tagss">
+            <a id="close" onclick="closemenu()" class="close-btn">x</a>
+            <a class="hover" href="">home</a>
+            <a class="hover"  href="">marketplace</a>
+            <a class="hover"  href="">nfts</a>
+            <a class="hover"  href="">exchange</a>
+            </div>
+    </div>
+    <script>function MenuOpen(){
+        document.getElementById('a-tagss').style.width='100%';
+        
+        }
+        function closemenu(){
+        document.getElementById('a-tagss').style.width='0';
+        
+        }
+        
+    
+    </script>
+</body>
+</html>
